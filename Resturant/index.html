@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-image: url('./background-image.jpg'); /* Replace 'your-background-image.jpg' with the actual path to your background image */
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 70px 0;
+    }
+      .navbar {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  
+      
+    
+
+    .jumbotron {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      margin-top: 30px;
+    }
+
+    .about-section {
+      background:pink;
+      padding: 30px;
+      margin-top: 30px;
+    }
+      
+    
+
+    .menu-section{
+      background:aqua(255, 255, 255, 0.9);
+      padding: 30px;
+      margin-top: 30px;
+      position: center;
+      background-size: cover;
+      
+       
+ 
+
+
+    }
+    .menu{
+      margin-left: 40%;
+    }
+
+    .login-section {
+      background: black(255, 255, 255, 0.9);
+      padding: 30px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"> Anuu Restaurant</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#login">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <div id="home" class="container">
+    <div class="jumbotron text-center">
+      <h1 class="display-4">Welcome to Our Restaurant</h1>
+      <p class="lead">Delicious food served with love</p>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about" class="container">
+    <div class="about-section">
+      <h2 class="text-center">
+      <p>Food is any substance consumed to provide nutritional support and energy to an organism. It can be raw, processed, or formulated and is consumed orally by animals for growth, health, or pleasure. Food is mainly composed of water, lipids, proteins, and carbohydrates.</p>
+    </div>
+  </div>
+
+  <!-- Menu Section -->
+  <div id="menu" class="container">
+    <div class="menu-section">
+      <img  class="menu"src="./menu2.jpg"/>
+
+
+
+  <!-- Login Section -->
+  <div id="login" class="container">
+    <div class="login-section">
+      <h2 class="text-center">Login</h2>
+      <!-- Add your login form here -->
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" class="form-control" id="username" placeholder="Enter your username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter your password">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
